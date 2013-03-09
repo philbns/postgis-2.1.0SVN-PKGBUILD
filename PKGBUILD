@@ -10,13 +10,13 @@ pkgrel=1
 epoch=
 pkgdesc="PostGIS SVN"
 arch=(i686 x86_64)
-url="http://postgis.net/stuff/postgis-2.1.0SVN.tar.gz"
+url="http://postgis.net/stuff"
 license=('GPL')
 depends=('geos' 'gtk2' 'gdal' 'json-c' 'libxml2' 'postgresql')
 options=('!libtool')
 install=
 changelog=
-source=($pkgname-$pkgver.tar.gz)
+source=($url/$pkgname-$pkgver.tar.gz)
 noextract=()
 md5sums=('e3b806f939de584e9ee34af529a3d245')
 
