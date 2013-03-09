@@ -1,0 +1,3 @@
+Upgrades Arch's PostGIS package with 2.1.0SVN.  This is a major release so existing PostGIS databases will need to be hard upgraded.  See this page for details:
+
+http://postgis.net/docs/manual-dev/postgis_installation.html#hard_upgrade
